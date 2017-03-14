@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+float A, G, Ra, Rg;
+
+int main ()
+{
+	scanf("%f", &A);
+	scanf("%f", &G);
+	scanf("%f", &Ra);
+	scanf("%f", &Rg);
+	if (Ra/A > Rg/G)
+	{
+		printf("A");
+	}
+	else if (Ra/A <= Rg/G)
+	{
+		printf("G");
+	}
+	return 0;
+}
